@@ -32,7 +32,6 @@ Por ultimo, el servidor de querer realizar operaciones con todos los datos de lo
 y llevar a cabo esas operaciones.
 
 
-
 ## Repositorios
 Actualmente existen 3 repositorios distintos
 
@@ -51,7 +50,7 @@ Repositorio de servidor
 https://github.com/fedes112/EPERdemic_Frontend
 
 
-## Tecnologias - Fede
+## Tecnologias
 
 -React: para el desarrollo del frontend utilizamos React (biblioteca escrita en JavaScript), facilita la creación de componentes interactivos y reutilizables.
 -Spring: Como framework para el desarrollo de la aplicación por todas las herramientas que disponibiliza para facilitar el "cableado" entre las capas de servicios y controllers, simplificación de syntaxis y orquestado de la arquitectura backend.
@@ -59,9 +58,15 @@ https://github.com/fedes112/EPERdemic_Frontend
 -SQL Server: A priori utilizamos como Base de Datos SQL Server tal y como hacemos en la mayoria de los casos en la materia Estrategias de Persistencia (podriamos por ej variar y usar MariaDB, Postgres, etc).
 -NodeJs : El servidor web estara montado sobre nodejs sobre su compatibilidad con proyectos react, su amplia documentación y la gran mayoria de los problemas recurrentes ya se encuentran resueltos.
 
-## CI - Ivar
+## CI 
 
-## Casos de uso - Fede
+Como herramienta de integracion continua estamos utilizando GitHub Actions por su facilidad de uso, configuracion e integracion con el repositorio.
+
+## Conectividad Servidor - Cliente  //TODO
+
+## Deployment //TODO
+
+## Casos de uso
 
 <p align="center">
   <img src="Casos_de_uso.png" />
@@ -71,9 +76,3 @@ Como Usuario quiero poder crear un agente patógeno.
 
 Como Usuario quiero poder recuperar todos los agentes patógenos y poder ver tanto los creados por mi, como los creados por los otros usuarios.  
 
-
-## Conectividad Servidor - Cliente - TODO
-
-## Deployment - TODO
-
-## TODO Actualizar Trello
