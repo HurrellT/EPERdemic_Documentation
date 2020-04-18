@@ -4,9 +4,19 @@
 
 ## Tecnologias - Fede
 
+-React: para el desarrollo del frontend utilizamos React (biblioteca escrita en JavaScript), facilita la creación de componentes interactivos y reutilizables.
+-Spring: Como framework para el desarrollo de la aplicación por todas las herramientas que disponibiliza para facilitar el "cableado" entre las capas de servicios y controllers, simplificación de syntaxis y orquestado de la arquitectura backend.
+-Kotlin: Utilizamos Kotlin como el lenguaje de nuestro backend por su flexibilidad como lenguaje, su integración con Spring y por estar montado sobre la JVM (siendo Java un lenguaje al que estamos acostumbrados).
+-SQL Server: A priorio utilizamos como Base de Datos el SQL Server tal y como hacemos en la mayoria de los casos en la materia Estrategias de Persistencia (podriamos por ej variar y usar MariaDB, Postgres, etc)
+
 ## CI - Ivar
 
 ## Casos de uso - Fede
+
+Como Usuario quiero poder crear un agente patógeno.
+
+Como Usuario quiero poder recuperar todos los agentes patógenos y poder ver tanto los creados por mi, como los creados por los otros usuarios.  
+
 
 ## Conectividad Servidor - Cliente - TODO
 
