@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="Icono.png" />
+</p>
+
+
 ## Proposito
 
 Durante la cursada de la materia 'Estrategias de Persistencia' en la universidad de Quilmes, se les presenta a los alumnos un trabajo practico de varias iteraciones a resolver.
