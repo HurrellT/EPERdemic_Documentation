@@ -22,24 +22,21 @@ y también ver como los datos que están manejando en sus TPs interactúan con l
 </p>
 
 La aplicación está dividida en dos grandes partes, una parte de clientes y una de servidor.
-A grandes rasgos,  los clientes están conformados por los trabajos prácticos de los alumnos, a los cuales ya se les provee un proyecto con la capa de controladores armada, lista para
-interactuar con la capa de servicios y recibir información del servidor. 
+A grandes rasgos,  los clientes están conformados por los trabajos prácticos de los alumnos, a los cuales ya se les provee un proyecto con la capa de controladores armada, lista para interactuar con la capa de servicios y recibir información del servidor. 
 
 Recordemos que la capa de servicios y las bases de datos no estarian implementadas, ya que es el trabajo que deberían realizar los alumnos para completar sus trabajos prácticos.  
 Sin embargo, una vez completada su implementación, los controladores ya estarían listos para que se pueda llevar a cabo la conexión e interacción con el servidor principal.
 
-Cuando se corre el proyecto, este realizaría un pedido de suscripción al servidor, para poder comenzar con la interacción entre ambas partes.
+El servidor web esta configurado para que todos los pedidos de comunicacion con el cliente se realizen a travez de llamadas a localhost, de tal manera que cada alumno corriendo su TP en su maquina va a ver como el frontEnd interactua con su backend.
 
-El servidor recibe este pedido, y asignará un identificador al cliente, de tal manera que cada cliente pueda acceder y realizar pedidos a su propio backend.
-Asimismo, el servidor tendrá un área pública en la cual se mostrarán datos de todos los clientes, y de necesitar se podrán realizar operaciones que impacten sobre todos los clientes también.
+Como se logra la interaccion entre todos los TPS entonces?
 
-Por último, el servidor de querer realizar operaciones con todos los datos de los clientes, o de necesitar realizar permutaciones de datos más complejas, contaría con su propio backend, con el cual podría interactuar
-y llevar a cabo esas operaciones.
+El frontend dispone de un área pública en la cual se mostrarán datos de todos los diferentes clientes. Esto se logra con la utilizacion de un servidor backend que sirve para conciliar los datos de todos los clientes en comunicacion, y con el cual el frontend se comunica para para visualizar esta data.
 
 
 ## Repositorios
 
-Actualmente existen 3 repositorios distintos; repo de servidor, repo de cliente público, y repo de cliente privado de pruebas. Nos hace falta tener un repositorio privado de pruebas, ya que para testear que el servidor se comporta
+Actualmente existen 4 repositorios distintos; repo de servidor frontend, repo de servidor backend, repo de cliente público, y repo de cliente privado de pruebas. Nos hace falta tener un repositorio privado de pruebas, ya que para testear que el servidor se comporta
 como esperamos, necesitamos implementar los trabajos prácticos nosotros y ver que las pruebas de integración son exitosas. Obviamente, de ser público este repositorio los alumnos 
 podrían copiarse y eso derrotaría la razón de ser del trabajo práctico.
 
@@ -47,7 +44,9 @@ podrían copiarse y eso derrotaría la razón de ser del trabajo práctico.
 
 - [Repositorio de cliente privado y de pruebas](https://github.com/EPERS-UNQ/TP_EPERDEMIC)
 
-- [Repositorio de servidor](https://github.com/fedes112/EPERdemic_Frontend)
+- [Repositorio de servidor frontend](https://github.com/fedes112/EPERdemic_Frontend)
+
+- [Repositorio de servidor backend](https://github.com/Dominikowivan/EPERdemic_Backend)
 
 
 ## Tecnologias
@@ -64,11 +63,12 @@ Como herramienta de integracion continua estamos utilizando [GitHub Actions](htt
 
 ## Conectividad Servidor - Cliente 
 
-TODO
+El servidor front realiza toda su comunicacion con el cliente a travez de llamadas HTTP Rest a localhost, siendo la primera llamada un pedido de nombre del grupo al backend para poder asi indexar toda la data que venga de este cliente en el backend con el nombre del grupo. A partir de ese momento, el front hace un Pulling continuo de la data en el servidor backend para enriqueser la data presentada en el area de informacion global de la aplicacion. 
+Para mantener el servidor backend y el servidor cliente sincronizados, el servidor frontend se asegura de que cada vez que envie data de importancia al servidor cliente, esta se replique en el servidor backend.
 
 ## Deployment
 
-TODO
+Como host y herramienta de deeployment estamos usitlizando [Zeit](https://zeit.co/) para el frontend y [Heroku](https://www.heroku.com) para el backend. Tomas la decision de utilizar diferentes host, ya que cada una de estas herramientas tiene su propia especialidad, que facilita su uso si se utiliza para ese proposito, siendo el de Zeit las aplicaciones nodeJS que usan react, y el de Heroku aplicaciones backend en general.
 
 ## Casos de uso
 
