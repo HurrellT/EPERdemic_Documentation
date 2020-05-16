@@ -5,19 +5,21 @@
 La meta para la entrega 2 era tener una primera versión del simulador andando. Qué queremos decir con esto? Poder tener algo que juegue y
 simule efectivamente el enunciado planteado.
 
-Para poder realizar esto, necesitamos poder crear y visualizar las especies, y poder crear en el backend ubicaciones que tengan vectores que nos permitan contagiar las diferentes especies de patógenos que vamos creando, y 
-un mecanismo para que estas se vayan esparciendo a través de las locaciones y los vectores en ellas.
+Para poder realizar esto, necesitamos:
 
-Implementamos toda la lógica de backend para que los vectores se puedan contagiar entre sí y se puedan mover entre locaciones.
-Cómo se contagian los vectores? Hay dos formas. 
+- Crear y visualizar las especies
+- Crear en el backend ubicaciones que tengan vectores que nos permitan contagiar las diferentes especies de patógenos que vamos creando 
+- Un mecanismo para que estas se vayan esparciendo a través de las locaciones y los vectores en ellas.
 
-Una es a través de un pedido de "expansión" en la locación.
-Este pedido de expansión toma un vector infectado random de la locación y este vector intenta contagiar a todos los otros vectores presentes en la misma locación.
+Cómo se contagian los vectores y se expanden las especies patogenas? Hay dos formas. 
 
-La otra es a través del movimiento de los vectores. Cuando un vector se mueve a otro lugar, este intenta contagiar a todos los vectores presentes en su nueva locación.
+### Expansion
+Dada una locacion, este pedido de expansión toma un vector infectado random en esa locacion, e intenta contagiar a todos los otros vectores presentes en  esa misma locación.
 
-Una vez hecho esto, desde el frontend, se hacen pedidos al backend para que se tomen vectores random, y se muevan a lugares random (para poder ir esparciendo la especie patógena a otras locaciones)
-Y tambien se hacen pedidos para "expandir" en todas las locaciones.
+### Movimiento
+Cuando un vector se mueve a otro lugar, este intenta contagiar a todos los vectores presentes en su nueva locación.
+
+Y para que la simulacion se de, desde el front se hacen pedidos al backend para que se tomen vectores random, se muevan a lugares random (para poder ir esparciendo la especie patógena a otras locaciones), y tambien se hacen pedidos para "expandir" en todas las locaciones.
 
 
 ## Capa de presentacion Entrega 1
