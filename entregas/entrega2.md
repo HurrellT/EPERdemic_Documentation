@@ -31,7 +31,7 @@ Y para que la simulación se de, desde el front se hacen pedidos al backend para
 ## Casos de uso
 
 <p align="center">
-  <img src="cdu_concepto.png" />
+  <img src="casos de uso entrega 2.png" />
 </p>
 
 `Como Usuario quiero poder crear un agente patógeno.`
