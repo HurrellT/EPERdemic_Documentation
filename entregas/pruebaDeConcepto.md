@@ -11,7 +11,7 @@ Se consiguio lo propuesto siguiendo la arquitectura descripta en el home de esta
 ## Casos de uso
 
 <p align="center">
-  <img src="Casos_de_uso_prueba_concepto" />
+  <img src="cdu_concepto.png" />
 </p>
 
 `Como Usuario quiero poder crear un agente patógeno.`

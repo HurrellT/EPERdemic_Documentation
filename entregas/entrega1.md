@@ -19,7 +19,7 @@ Si bien los casos de uso se mantuvieron como los mismos, cambiaron los requerimi
 de hacer el onboarding de funcionalidades globales.
 
 <p align="center">
-  <img src="Casos_de_uso_prueba_concepto" />
+  <img src="cdu_concepto.png" />
 </p>
 
 `Como Usuario quiero poder crear un agente patógeno.`
