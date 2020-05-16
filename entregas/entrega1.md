@@ -13,6 +13,13 @@ Planteada esta problematica, nuestro foco para esta entrega fue:
 	* Hacer un mockup del front, de tal manera que se pueda ver como se terminara visualizando el juego
 	* Adaptar los primeros casos de uso a todos estos cambios nuevos
 
+
+## Capa de presentacion Entrega 1
+
+<p align="center">
+  <img src="mockup.png" />
+</p>
+
 ## Casos de uso
 
 Si bien los casos de uso se mantuvieron como los mismos, cambiaron los requerimientos de estos. Decidimos tambien enfocarnos primero en la experiencia "single player" primero, antes
