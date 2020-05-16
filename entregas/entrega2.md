@@ -22,7 +22,7 @@ Cuando un vector se mueve a otro lugar, este intenta contagiar a todos los vecto
 Y para que la simulación se de, desde el front se hacen pedidos al backend para que se tomen vectores random, se muevan a lugares random (para poder ir esparciendo la especie patógena a otras locaciones), y tambien se hacen pedidos para "expandir" en todas las locaciones.
 
 
-## Capa de presentacion Entrega 1
+## Capa de presentacion Entrega 2
 
 <p align="center">
   <img src="entrega2front.png" />
