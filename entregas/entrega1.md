@@ -8,10 +8,11 @@ implementado en JDBC el setup del proyecto fue bastante sencillo. Pero para esta
 El TP 2 listo para que comiencen con su implementación.
 
 Planteada esta problemática, nuestro foco para esta entrega fue:
-	* Definir TP 2 (Hibernate) de Persistencia. Pensarlo de tal forma que se pueda utilizar ese TP como principal mecanismo de empuje para la simulación visualizada en el front end.
-    * Implementar toda la capa de controladores y de Spring sumado a Hibernate, asegurándonos que ambas funcionen sin pisarse entre sí. 
-	* Hacer un mockup del front, de tal manera que se pueda ver cómo se terminara visualizando el juego
-	* Adaptar los primeros casos de uso a todos estos cambios nuevos
+
+- Definir TP 2 (Hibernate) de Persistencia. Pensarlo de tal forma que se pueda utilizar ese TP como principal mecanismo de empuje para la simulación visualizada en el front end.
+- Implementar toda la capa de controladores y de Spring sumado a Hibernate, asegurándonos que ambas funcionen sin pisarse entre sí. 
+- Hacer un mockup del front, de tal manera que se pueda ver cómo se terminara visualizando el juego
+- Adaptar los primeros casos de uso a todos estos cambios nuevos
 
 
 ## Capa de presentacion Entrega 1
