@@ -70,8 +70,12 @@ Para mantener el servidor backend y el servidor cliente sincronizados, el servid
 
 Como host y herramienta de deeployment estamos usitlizando [Zeit](https://zeit.co/) para el frontend y [Heroku](https://www.heroku.com) para el backend. Tomas la decision de utilizar diferentes host, ya que cada una de estas herramientas tiene su propia especialidad, que facilita su uso si se utiliza para ese proposito, siendo el de Zeit las aplicaciones nodeJS que usan react, y el de Heroku aplicaciones backend en general.
 
-## Entregas
-- [Prueba de concepto](entregas/pruebaDeConcepto.md)
-- [Entrega 1](entregas/entrega1.md)
-- [Entrega 2](entregas/entrega2.md)
-- Entrega 3 
+## Casos de uso
+
+<p align="center">
+  <img src="Casos_de_uso.png" />
+</p>
+
+`Como Usuario quiero poder crear un agente patógeno.`
+
+`Como Usuario quiero poder recuperar todos los agentes patógenos y poder ver tanto los creados por mi, como los creados por los otros usuarios. `
