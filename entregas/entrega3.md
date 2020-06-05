@@ -52,7 +52,7 @@ Dada una ubicacion, debera retornar un objeto reporte que contenga
 </p>
 
 <p align="center">
-  <img src="img4_eperdemic-1.jpg" />
+  <img src="img4_eperdemic-3.jpg" />
 </p>
 
 ## Casos de uso
