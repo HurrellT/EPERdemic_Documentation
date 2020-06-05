@@ -10,7 +10,7 @@ Metas para la Entrega 3, muchos cambios a nivel UEX:
 
 Como también nuevos features:
 
-- Un leaderboard que muetren las especies lideres del equipo actual
+- Un leaderboard que muetren las especies lideres del equipo actual.
 - Un leaderboard que muestre los lugares más infectados, con el detalle, de que visualiza los lugares de todos los grupos.
 
 La data para el leaderboard con las especies lideres se consigue a partir de llamadas a servicios en el backend:
