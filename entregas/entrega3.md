@@ -1,4 +1,4 @@
-# Entrega 2
+# Entrega 3
 
 ## Funcionalidades
 
@@ -40,19 +40,19 @@ Dada una ubicacion, debera retornar un objeto reporte que contenga
 ## Capa de presentacion Entrega 3
 
 <p align="center">
-  <img src="img1_eperdemic.png" />
+  <img src="img1_eperdemic-1.png" />
 </p>
 
 <p align="center">
-  <img src="img2_eperdemic.jpg" />
+  <img src="img2_eperdemic-1.jpg" />
 </p>
 
 <p align="center">
-  <img src="img3_eperdemic.jpg" />
+  <img src="img3_eperdemic-1.jpg" />
 </p>
 
 <p align="center">
-  <img src="img4_eperdemic.jpg" />
+  <img src="img4_eperdemic-1.jpg" />
 </p>
 
 ## Casos de uso
