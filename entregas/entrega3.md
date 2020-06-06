@@ -42,6 +42,7 @@ Dada una ubicacion, debera retornar un objeto reporte que contenga
 - Relaciones circulares, lo que generaba problema al momento de serializar a JSON, generando una recursión infinita.
 - Problema de concurrencia en llamadas desde el front, al momento de la llamada (sesiones se cierran antes de terminar las transacciones en caso de que más de una este ocurriendo).
 - Problemas al momento de correr spring y hibernate, usaban distintas naming conventions por default, lo que no permitia que hibenate detecte las tablas ya creadas.
+- Problemas encontrados en los tps de los alumnos, los que no nos permitia probar funcionalidades al momento de integrarlas con el front.
 
 ## Capa de presentacion Entrega 3
 
