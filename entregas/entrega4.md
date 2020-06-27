@@ -17,7 +17,11 @@ Como también fixeo de problemas:
 
 ### Dificultades encontradas
 
-- "".
+- Para enviar pedidos de expansion al backend utilizamos una funcion de javascript que se llama "setInterval" la cual realiza una accion y la repite cada cierto tiempo provisto en milisegundos. Ese tiempo que se le da es fijo, no se puede cambiar sin cerrar el intervalo, por lo cual cuando quisimos implementar la funcionalidad de aumentar la velocidad nos encontramos con que dinamicamente modificar un intervalo no era posible. Habia que manejar el comienzo y cierre de los intervalos cada vez que se modificaba la velocidad.
+Encontramos una solucion en la cual pero parecia que utilizaba bastantes recursos ya que realentizaba toda la aplicacion, no por decir que no se veia muy limpia, asi que buscamos alternativas.
+Al final la solucion la encontramos en la vieja y confiable "libreria externa", este es un problema recurrente y alguien ya desarollo una herramienta que nos permite cambiar el delay del intervalo de forma dinamica facilmlente, asi que por que no usarlo?
+
+- La libreria externa que encontramos para manejar intervalos dinamicos rompe Cypress. No pudimos encontrar una solucion a esa problematica a tiempo, pero entendemos que la solucion es encontrar otra alternativa. Por el momento para correr cygpress habra que comentar la linea en la que se llama al metodo que utiliza el dinamic interval.
 
 ## Capa de presentacion Entrega 4 y Tests Frontend
 
