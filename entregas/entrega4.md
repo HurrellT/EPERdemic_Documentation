@@ -17,11 +17,12 @@ Como también fixeo de problemas:
 
 ### Dificultades encontradas
 
-- Para enviar pedidos de expansion al backend utilizamos una funcion de javascript que se llama "setInterval" la cual realiza una accion y la repite cada cierto tiempo provisto en milisegundos. Ese tiempo que se le da es fijo, no se puede cambiar sin cerrar el intervalo, por lo cual cuando quisimos implementar la funcionalidad de aumentar la velocidad nos encontramos con que dinamicamente modificar un intervalo no era posible. Habia que manejar el comienzo y cierre de los intervalos cada vez que se modificaba la velocidad.
-Encontramos una solucion en la cual pero parecia que utilizaba bastantes recursos ya que realentizaba toda la aplicacion, no por decir que no se veia muy limpia, asi que buscamos alternativas.
-Al final la solucion la encontramos en la vieja y confiable "libreria externa", este es un problema recurrente y alguien ya desarollo una herramienta que nos permite cambiar el delay del intervalo de forma dinamica facilmlente, asi que por que no usarlo?
+- Para enviar pedidos de expansión al backend utilizamos una función de javascript que se llama "setInterval" la cual realiza una acción y la repite cada cierto tiempo provisto en milisegundos. Ese tiempo que se le da es fijo, no se puede cambiar sin cerrar el intervalo, por lo cual cuando quisimos implementar la funcionalidad de aumentar la velocidad nos encontramos con que dinámicamente modificar un intervalo no era posible. Había que manejar el comienzo y cierre de los intervalos cada vez que se modifica la velocidad.
+Encontramos una solución en la cual pero parecía que utiliza bastantes recursos ya que ralentizaba toda la aplicación, no por decir que no se veía muy limpia, así que buscamos alternativas.
+Al final la solución la encontramos en la vieja y confiable "librería externa", este es un problema recurrente y alguien ya desarrolló una herramienta que nos permite cambiar el delay del intervalo de forma dinámica fácilmente, así que por qué no usarlo?
 
-- La libreria externa que encontramos para manejar intervalos dinamicos rompe Cypress. No pudimos encontrar una solucion a esa problematica a tiempo, pero entendemos que la solucion es encontrar otra alternativa. Por el momento para correr cygpress habra que comentar la linea en la que se llama al metodo que utiliza el dinamic interval.
+- La librería externa que encontramos para manejar intervalos dinámicos rompe Cypress. No pudimos encontrar una solución a esta problemática a tiempo, pero entendemos que la solución es encontrar otra alternativa. Por el momento para correr cypress habrá que comentar la línea en la que se llama al método que utiliza el dynamic interval.
+
 
 ## Capa de presentacion Entrega 4 y Tests Frontend
 
