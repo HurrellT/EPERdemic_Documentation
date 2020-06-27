@@ -22,7 +22,7 @@ Como también fixeo de problemas:
 ## Capa de presentacion Entrega 3
 
 <p align="center">
-  <img src="modal_1.png" />
+  <img src="modal_1.jpg" />
 </p>
 
 <p align="center">
@@ -34,13 +34,13 @@ Como también fixeo de problemas:
 </p>
 
 <p align="center">
-  <img src="test_front_2.jpg" />
+  <img src="test_front_2.png" />
 </p>
 
 ## Casos de uso
 
 <p align="center">
-  <img src="caso_de_uso_entrega_4.png" />
+  <img src="caso_de_uso_entrega_4.jpg" />
 </p>
 
 `Como usuario quiero ver un leaderboard de las especies que mas vectores infectaron.`
