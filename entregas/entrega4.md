@@ -43,6 +43,6 @@ Como también fixeo de problemas:
   <img src="caso_de_uso_entrega_4.jpg" />
 </p>
 
-`Como usuario quiero ver un leaderboard de las especies que mas vectores infectaron.`
+`Como usuario quiero poder aumentar o disminuir la velocidad de la simulación´.`
 Al clickear en el botón de Iniciar simulación tenemos la posibilidad de modificar la velocidad de dicha simulación por medio de una slide.
 
